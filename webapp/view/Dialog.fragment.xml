@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<SelectDialog 
+		cancel="_handleValueHelpClose" 
+		class="sapUIPopinWithPadding"
+		confirm="_handleValueHelpClose" 
+		items="{path: '/SCARRSet'}" 
+		search="handleValueHelpSearch"
+		title="Carrier">
+		<StandardListItem title="{Carrname}" description="{Carrid}">
+			
+		</StandardListItem>
+	</SelectDialog>
+</core:FragmentDefinition>
